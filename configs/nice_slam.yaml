@@ -1,0 +1,36 @@
+
+
+verbose: True
+occupancy: True
+
+pretrained_decoders:
+
+
+meshing:
+
+
+tracking:
+  device: "cuda:0"
+  vis_freq: 50
+
+  lr: 0.001
+  pixels: 200
+  iters: 10
+
+
+
+mapping:
+  device: "cuda:0"
+  vis_freq: 50
+
+
+cam:
+
+
+rendering:
+
+
+data:
+
+
+model:
